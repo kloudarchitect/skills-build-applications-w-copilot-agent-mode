@@ -32,7 +32,11 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 # Add localhost and other hosts to ALLOWED_HOSTS
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    '[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev'
+]
 
 # Set the site ID for django-allauth
 SITE_ID = 1
