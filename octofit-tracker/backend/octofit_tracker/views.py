@@ -18,6 +18,6 @@ def api_endpoint(request):
     # Replace with the codespace URL and localhost for testing
     return JsonResponse({
         "message": "Welcome to the Octofit API!",
-        "codespace_url": "https://[REPLACE-THIS-WITH-YOUR-CODESPACE-NAME]-8000.app.github.dev",
+        "codespace_url": "https://fictional-waffle-w649rq7r6cp4j-8000.app.github.dev",
         "localhost_url": "http://localhost:8000"
     })
